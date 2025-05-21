@@ -4,11 +4,14 @@ version = "0.1.0"
 description = ""
 authors = ["Nuung <qlgks1@naver.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.13"
 psycopg2-binary = "^2.9.10"
 openai = "^1.75.0"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
 
 
 [build-system]
