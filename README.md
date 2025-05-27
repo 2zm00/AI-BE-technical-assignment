@@ -52,14 +52,15 @@ OPENAI_TEMPERATURE="0.1" # 일관된 결과 생성을 위한 권장 값
 ```
 
 ### 데이터베이스 테이블 생성 및 초기 데이터 주입
-다음 스크립트들을 실행하여 Vector Store에 초기 데이터를 주입합니다.
+**`example_datas/` 폴더에 들어가 다음 스크립트들을 실행하여 Vector Store에 초기 데이터를 주입합니다.
 
-1. `poetry run python example_datas/langchain_setup_company_data.py`
-2. `poetry run python example_datas/langchain_setup_company_news_data.py`
-3. `poetry run python example_datas/langchain_setup_university_rank_data.py`
+1. **`example_datas`** 경로로 이동한 상태에서 아래 스크립트를 차례로 실행합니다.
+1. `poetry run python langchain_setup_company_data.py`
+2. `poetry run python langchain_setup_company_news_data.py`
+3. `poetry run python langchain_setup_university_rank_data.py`
 
 ### API 서버 실행
-다음을 통해 API 서버를 실행합니다.
+**프로젝트 루트 디렉토리**에서 API 서버를 실행합니다.
 ```
 poetry run uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
