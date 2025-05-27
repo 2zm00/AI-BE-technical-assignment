@@ -52,7 +52,7 @@ OPENAI_TEMPERATURE="0.1" # 일관된 결과 생성을 위한 권장 값
 ```
 
 ### 데이터베이스 테이블 생성 및 초기 데이터 주입
-**`example_datas/` 폴더에 들어가 다음 스크립트들을 실행하여 Vector Store에 초기 데이터를 주입합니다.
+**`example_datas/`** 폴더에 들어가 다음 스크립트들을 실행하여 Vector Store에 초기 데이터를 주입합니다.
 
 1. **`example_datas`** 경로로 이동한 상태에서 아래 스크립트를 차례로 실행합니다.
 1. `poetry run python langchain_setup_company_data.py`
