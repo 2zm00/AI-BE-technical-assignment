@@ -10,6 +10,11 @@
 [![Repository](https://img.shields.io/badge/Repository-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/2zm00/AI-BE-technical-assignment)
 
 
+
+https://github.com/user-attachments/assets/fc919068-74df-4a20-a856-d5ef9f38a1b4
+
+`talent_ex1.json` 데이터를 사용하여 인재 역량 태그가 어떻게 동작하는지 보여주는 영상입니다. 
+
 ## 설치 및 실행 방법
 
 다음의 환경에서 준비해야합니다.
