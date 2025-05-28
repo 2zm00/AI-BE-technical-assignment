@@ -1,16 +1,35 @@
 [tool.poetry]
-name = "searchright-technical-assignment"
+name = "app"
 version = "0.1.0"
 description = ""
-authors = ["Nuung <qlgks1@naver.com>"]
+authors = ["JeongMo <dwa010301@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.13"
 psycopg2-binary = "^2.9.10"
 openai = "^1.75.0"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+pydantic-settings = "^2.9.1"
+langchain = "^0.3.25"
+langchain-openai = "^0.3.17"
+langchain-community = "^0.3.24"
+pgvector = "^0.4.1"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-mock = "^3.14.0"
+pytest-asyncio = "^0.26.0"
+pytest-cov = "^6.1.1"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
